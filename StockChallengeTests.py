@@ -1,8 +1,6 @@
 import pytest
 import StockChallenge
 
-prices = []
-
 def testPricesWith1Value():
     prices = [4]
     profit = StockChallenge.calculateMaxProfit(prices)
