@@ -30,3 +30,8 @@ def testPricesExample2():
     prices = [7,6,4,3,1]
     profit = StockChallenge.calculateMaxProfit(prices)
     assert profit == 0
+
+def testPricesAllEqual():
+    prices = [5, 5, 5, 5, 5]
+    profit = StockChallenge.calculateMaxProfit(prices)
+    assert profit == 0
