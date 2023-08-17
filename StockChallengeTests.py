@@ -7,11 +7,11 @@ def testPricesWith1Value():
     assert profit == 0
 
 def testPricesWith2Values():
-    prices = [3, 2]
+    prices = [3,2]
     profit = StockChallenge.calculateMaxProfit(prices)
     assert profit == 0
 
-    prices = [1, 3]
+    prices = [1,3]
     profit = StockChallenge.calculateMaxProfit(prices)
     assert profit == 2
 
@@ -26,6 +26,6 @@ def testPricesExample2():
     assert profit == 0
 
 def testPricesAllEqual():
-    prices = [5, 5, 5, 5, 5]
+    prices = [5,5,5,5,5]
     profit = StockChallenge.calculateMaxProfit(prices)
     assert profit == 0
