@@ -10,5 +10,8 @@ def calculateMaxProfit(prices):
             prices = prices.sort(reversed = True)
             return prices[0] - prices[1]
 
-#   else:
-#        for n in range(len(prices)):
+    else:
+        profit = 0
+        for n in range(len(prices)):
+            #something
+        return profit
